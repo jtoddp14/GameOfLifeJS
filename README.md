@@ -14,9 +14,9 @@ Simply open the index.html file in any browser. The game will run itself from th
 
 ## Utilizing 
 The game give you a few options to manipulate the game the way you like. These include
-1. Play/Stop - Continue running the game or stop it. Depending on the game state.
-2. Advance - Iterates to the next game state without playing through all the iterations. (Best used when the game is stopped)
-3. New - Completely clears the board and randomly assigns new cells to the board.
-4. Clear - Clears the current board state to be completely blank.
-5. Set Size - Depending on input of the board height and size, the gameboard will reset to match.
-6. Clicking the Board - If you want to add your own cells or create a board on your own, click on empty cells on the board, or click live cells to make them unactive.
+1. **Play/Stop** - Continue running the game or stop it. Depending on the game state.
+2. **Advance** - Iterates to the next game state without playing through all the iterations. (Best used when the game is stopped)
+3. **New** - Completely clears the board and randomly assigns new cells to the board.
+4. **Clear** - Clears the current board state to be completely blank.
+5. **Set Size** - Depending on input of the board height and size, the gameboard will reset to match.
+6. **Clicking the Board** - If you want to add your own cells or create a board on your own, click on empty cells on the board, or click live cells to make them unactive.
