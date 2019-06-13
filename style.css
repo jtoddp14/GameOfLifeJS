@@ -1,7 +1,16 @@
 body {
-  background-color: #000000;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   text-align: center;
+}
+
+h2 {
+  font: bold 46px/40px "Helvetica", "Arial", sans-serif;
+  letter-spacing: -2px;
+  margin: 0 0 10px 0;
+  padding: 6px 6px 8px;
 }
 
 #board {
@@ -35,7 +44,10 @@ input[type=checkbox]:checked + label {
 }
 
 button {
+  vertical-align: middle;
   cursor: pointer;
+  padding: 6px 12px;
+  font-size: 1.4rem;
 }
 
 #run {
