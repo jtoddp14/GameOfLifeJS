@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Game of Life</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>The Game of Life</h2>
+    <div id="board"></div>
+    <p class="buttons">
+      <button id="run" autofocus>Stop</button>
+      <button id="advanceBoard">Advance</button>
+      <button id="newBoard">New</button>
+      <button id="clearBoard">Clear</button>
+    </p>
+    <div style="padding-top: 25px">
+        Board Height
+        <input id="setGridHeight" type="number" value="6">
+        Board Width
+        <input id="setGridWidth" type="number" value="8">
+        <button id="setBoardSize">Set Size</button>
+    </div>
+    <script src="app.js"></script> 
+  </body>
+</html>
